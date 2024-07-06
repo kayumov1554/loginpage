@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+}
+
+.container form .login {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container form .login a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+}
+
+.container form .login a:hover {
+    transform: scale(1.2);
+}
+
+.container form .login span {
+    font-size: 20px;
+    color: red;
+}
+
+.container form input {
+    width: 80%;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.295);
+}
+
+.container form input::placeholder {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+
+.container form button {
+    height: 35px;
+    width: 60%;
+    font-size: 25px;
+    background: white;
+    color: black;
+    transition: all .5s ease;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.295);
+}
+
+.container form button:hover {
+    background: black;
+    border: none;
+    color: white;
+}
+
+.container form .checkox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container form .checkox span {
+    color: blue;
+}
+
+.container form .checkox input {
+    width: 20px;
+    height: 20px;
+}
+
+.container form .checkox .text {
+    font-size: 16px;
+}
+
+.container form .reg {
+    display: flex;
+    gap: 20px;
+}
+
+.container form .forgot {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.container form .register {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.container form p {
+    color: rgb(98, 113, 231);
+}
+
+.container form .links .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.container form .links .icons img {
+    width: 35px;
+}
